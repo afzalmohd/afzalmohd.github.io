@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <script language="JavaScript">
+            function showForm() {
+                var h1 = document.getElementById("h1").checked;
+                var h2 = document.getElementById("h2").checked;
+                var h3 = document.getElementById("h3").checked;
+                var h4 = document.getElementById("h4").checked;
+                document.writeln("Your input is: <br>")
+                if(h1) document.writeln("Gymnasium <br>");
+                if(h2) document.writeln("Swimming <br>");
+                if(h3) document.writeln("Singing <br>");
+                if(h4) document.writeln("Walking <br>");
+
+
+            }
+        </script>
+    </head>
+    <body>
+        <form>
+            <input type="checkbox" id="h1" name="h1">
+            <label for="h1"> Gymnasium</label><br>
+            <input type="checkbox" id="h2" name="h2">
+            <label for="h2"> Swimming</label><br>
+            <input type="checkbox" id="h3" name="h3">
+            <label for="h3"> Singing</label><br>
+            <input type="checkbox" id="h4" name="h4">
+            <label for="h4"> Walking</label><br>
+            
+          </form> 
+        
+          <button onclick="showForm();">Submit</button><br><br>
+    </body>
+
+</html>
+
