@@ -1,40 +1,184 @@
-<!-- index.html -->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mohammad Afzal - Online CV</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Mohammad Afzal</title>
+  <link rel="stylesheet" href="style.css">
+  <base target="_blank" rel="noopener noreferrer">
 </head>
+
 <body>
-    <header>
-        <div>
-            <h1>Mohammad Afzal</h1>
-            <p>PhD Student at IIT Bombay</p>
-        </div>
-        <img src="images/profile.jpg" alt="Afzal">
+
+<div class="container">
+
+    <header class="top-header">
+
+    <div class="header-left">
+        <h1>Mohammad Afzal</h1>
+        <p class="subtitle">
+        PhD (Safe AI), <a href="https://www.iitb.ac.in/">IIT Bombay</a>, India <br>
+        Scientist, <a href="https://www.tcs.com/what-we-do/research">TCS Research (TRDDC) Pune</a>, India
+        </p>
+
+        <p class="contact">
+        Email: <a href="mailto:afzal@cse.iitb.ac.in">afzal@cse.iitb.ac.in</a><br>
+        <a href="cv.pdf">Download CV (PDF)</a> |
+        <a href="https://github.com/afzalmohd">GitHub</a> |
+        <a href="https://scholar.google.com/citations?user=Kb2Qmz0AAAAJ">Google Scholar</a> |
+        <a href="https://www.linkedin.com/in/mohammad-afzal-b1a832125/">LinkedIn</a>
+        </p>
+    </div>
+
+    <div class="header-right">
+        <img src="photos/photo1.jpg" alt="Mohammad Afzal">
+    </div>
+
     </header>
 
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="publications.html">Publications</a></li>
-            <li><a href="education.html">Education</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>I am a PhD student at IIT Bombay, working under the guidance of Prof Ashutosh Gupta and Prof Akshay S. 
-            My research focuses on building bug-free machine learning software, reflecting my passion for advancing the reliability 
-            and robustness of AI technologies.</p>
-    </section>
+  <section>
+    <h2>Research Interests</h2>
+    <ul>
+      <li>AI Safety and Formal Verification of Neural Networks</li>
+      <li>Explainability of AI Systems</li>
+      <li>Runtime Monitoring of AI Systems</li>
+      <li>Formal Methods in Program Verification</li>
+    </ul>
+  </section>
 
-    <footer>
-        <p>&copy; 2023 Your Name</p>
-    </footer>
+  <section>
+    <h2>Education</h2>
+    <p>
+      <strong>PhD (Safe AI)</strong>, Jan 2020 – Present (Thesis Submitted)<br>
+      Indian Institute of Technology Bombay, India<br>
+      <em>Thesis:</em> From Counterexamples to Confidence: Advancing Neural Network Verification
+    </p>
+
+    <p>
+      <strong>M.Sc. (Computer Science)</strong>, Jul 2015 – May 2017<br>
+      Chennai Mathematical Institute, India<br>
+      <em>Thesis:</em> Property Checking of Array Programs involving Quantification over Array Elements<br>
+      <!-- CGPA: 8.13 / 10 -->
+    </p>
+
+    <p>
+      <strong>B.Tech. (Information Technology)</strong>, Jul 2011 – May 2015<br>
+      Rajkiya Engineering College, Bijnor (HBTI Kanpur)<br>
+      <!-- Percentage: 68.04% -->
+    </p>
+  </section>
+
+  <section>
+    <h2>Experience</h2>
+
+    <p>
+      <strong>Scientist</strong>, Aug 2023 – Present<br>
+      TCS Research Pune, India
+    </p>
+    <ul>
+      <li>Led research on robustness verification of deep neural networks.</li>
+      <li>Developed scalable verification techniques for ImageNet-scale models.</li>
+      <li>Worked on both industrial and PhD-aligned research projects.</li>
+    </ul>
+
+    <p>
+      <strong>Researcher</strong>, Jul 2017 – Jul 2023<br>
+      TCS Research Pune, India
+    </p>
+    <ul>
+      <li>Designed and implemented verification techniques for array programs.</li>
+      <li>Integrated techniques into <em>VeriAbs</em>, winning SV-COMP Gold Medals (2019–2021).</li>
+      <li>Reduced ~80% false warnings in large industrial C codebases.</li>
+    </ul>
+  </section>
+
+ <section>
+  <h2>Tools Developed</h2>
+  <ul>
+    <li><a href="https://github.com/afzalmohd/VeriNN/tree/master/deep_refine">DREFINE</a> -- A tool for formally verifying the robustness of neural networks.</li>
+    <li><a href="https://github.com/sankalpgambhir/quantlearn">QuantLearn</a> -- A tool for providing explanations of policy demonstrations in the form of LTL formulae.</li>
+    <li><a href="https://sv-comp.sosy-lab.org/2019/talks/35_VeriAbs.pdf">VeriAbs</a> -- A tool for verifying C programs.</li>
+  </ul>
+</section>
+
+
+  <!-- <section>
+    <h2>PhD Thesis Summary</h2>
+    <p>
+      My research focuses on the formal robustness verification of neural networks, an NP-complete problem.
+      I developed scalable counterexample-guided abstraction refinement techniques, analyzed false positives
+      in robustness checking, and incorporated classification confidence into robustness properties.
+      I also worked on learning and explaining reward functions in inverse reinforcement learning.
+    </p>
+  </section> -->
+
+  <!-- <section>
+    <h2>Internships & Research Visits</h2>
+    <ul>
+      <li>
+        <strong>CNRS@NUS Lab, Singapore</strong> (Oct 2023):  
+        Worked on branching heuristics to improve neural network verification scalability.
+      </li>
+      <li>
+        <strong>TCS Research, Pune</strong> (Jan 2017 – Jun 2017):  
+        Property checking of quantified array programs.
+      </li>
+      <li>
+        <strong>CMI, Chennai</strong> (May 2016 – Jul 2016):  
+        Worked on the Prototype Verification System (PVS).
+      </li>
+    </ul>
+  </section> -->
+
+  <section>
+    <h2>Publications</h2>
+    <a href="https://scholar.google.com/citations?user=Kb2Qmz0AAAAJ">Google Scholar</a>
+    <!-- <ul>
+      <li>Verifying Rich Robustness Properties for Neural Networks, arXiv, 2025</li>
+      <li>False Positives in Robustness Checking of Neural Networks, OVERLAY@ECAI, 2025</li>
+      <li>Unifying Syntactic and Semantic Abstractions for Deep Neural Networks, FMICS, 2024</li>
+      <li>Using Counterexamples to Improve Robustness Verification, ATVA, 2023</li>
+      <li>LTL-Based Non-Markovian Inverse Reinforcement Learning, AAMAS, 2023</li>
+      <li>VeriAbs: Verification by Abstraction and Test Generation, ASE 2019, TACAS 2020</li>
+    </ul> -->
+  </section>
+
+  <section>
+    <h2>Talks</h2>
+    <ul>
+      <li>RHPL@FSTTCS 2025 – Verifying Rich Robustness Properties for Neural Networks.</li>
+      <li>SAIV@CAV 2025, OVERLAY@ECAI 2025 – False Positives in Robustness Checking of Neural Networks.</li>
+      <li>WCSS@SAT 2024, ATVA 2023 – Using Counterexamples to Improve Robustness Verification.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Professional Service</h2>
+    <ul>
+      <li>Artifact Evaluation Committee: CAV 2023, QEST+FORMAT 2024, TACAS 2024–2026.</li>
+      <li>Subreviewer: ATVA 2025, FASE 2026, HSCC/ICCPS 2026.</li>
+    </ul>
+  </section>
+
+  <!-- <section>
+    <h2>Tools & Skills</h2>
+    <p><strong>Tools:</strong> DREFINE, QuantLearn, VeriAbs</p>
+    <p><strong>Solvers:</strong> αβ-CROWN, Marabou, NeuralSAT, Z3, Gurobi</p>
+    <p><strong>Theory:</strong> Logic, Automata, Model Checking, Automated Reasoning, Machine Learning</p>
+  </section> -->
+
+  <!-- <section>
+    <h2>Curriculum Vitae</h2>
+    <p>
+      <a href="cv.pdf">Download CV (PDF)</a>
+    </p>
+  </section> -->
+
+  <footer>
+    <p>Last updated: Jan 2026</p>
+  </footer>
+
+</div>
+
 </body>
 </html>
